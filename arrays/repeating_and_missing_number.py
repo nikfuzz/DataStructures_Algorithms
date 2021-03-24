@@ -13,7 +13,7 @@ output: [3, 4]
 
 import numpy as np
 
-def repeatedNumber(self, a):
+def repeatedNumber(a):
     # We need two equations to find missing num (m) and repeating num (r)
     # calculate sum of n ints
     n = len(a)

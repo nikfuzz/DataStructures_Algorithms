@@ -14,7 +14,7 @@ input: [2]
 output: 0
 '''
 
-def maxArr(self, a):
+def maxArr(a):
     # absolute sol can be broken down to 2 diff equations based on its defination
     # rearranging them will give a[i]+i - a[j] + j and a[i]-i - a[j]-j
     # since there is no relation between and i and j we can say i == j is possible
