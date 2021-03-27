@@ -20,7 +20,7 @@ def nextPermutation(a):
 
     # if len <= 2 then we either have a asc order arr or desc. either way we return reverse(a)
     if len(a) <= 2:
-        return reversed(a)
+        return a.reverse()
 
     # find where the desc slope from the back ends  
     i = n-2
@@ -29,7 +29,7 @@ def nextPermutation(a):
         
     # if the whole arr is in dec order 
     if i == -1:
-        return a
+        return a.reverse()
     
     # swap just greater number than a[i] from the dec order and reverse the right side
     for j in range(n-1, i, -1):
