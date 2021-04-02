@@ -21,11 +21,10 @@ Input 2:
 Output 2:
  1
 '''
-
 class Solution:
-    # a^a = 0
-	def singleNumber(self, a):
-	    res = 0
-	    for i in range(len(a)):
+    # a ^ a = 0
+    def singleNumber(self, a):
+        res = 0
+        for i in range(len(a)):
             res = res ^ a[i]
         return res
