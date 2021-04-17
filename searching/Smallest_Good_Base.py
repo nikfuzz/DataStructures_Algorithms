@@ -33,9 +33,15 @@ class Solution:
             
             sum = 0
             temp = 1
-            for j in range(i):
+            j = 0
+            
+            while j<i:
                 sum += temp
                 temp *= m
+                j += 1
+            # for j in range(i):
+            #     sum += temp
+            #     temp *= m
                 
             if sum == n:
                 return m
