@@ -44,4 +44,4 @@ class Solution:
 	            j -= 1
 	    return area
 
-# time complexity will be O(n^2)
+# time complexity will be O(n)
