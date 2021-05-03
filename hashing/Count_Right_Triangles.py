@@ -52,3 +52,5 @@ class Solution:
             ans += (((mx[a[i]]-1)*(my[b[i]]-1)) % (10**9+7))
         
         return ans % (10**9+7)
+# TC O(n)
+# SC O(n+n) => O(n)
