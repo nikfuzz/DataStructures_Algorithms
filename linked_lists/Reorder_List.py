@@ -65,5 +65,7 @@ class Solution:
             temp.next = ptr1
             temp = ptr1
         return head
+# TC O(n)
+# SC O(1)
         
         
