@@ -50,9 +50,6 @@ class Solution:
             pre = ptr
             ptr = ptr.next
             traverse_count -= 1
-        if pre == head:
-            head = head.next
-            return head
         pre.next = ptr.next
         return head
 # TC O(n)
