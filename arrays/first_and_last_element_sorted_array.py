@@ -33,6 +33,7 @@ def searchRange(nums,target):
     while l <= r:
         mid = (l + r) // 2
         if nums[mid] == target:
+            # TODO: remove this linear slide of iterator to find the end and use BS to find the last occ
             # find left-most index
             l_i = mid
             while l_i>=0 and nums[l_i] == target:
