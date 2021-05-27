@@ -51,5 +51,3 @@ class Solution:
         return tc
 # TC O(n * log n)
 # SC O(n)
-
-
