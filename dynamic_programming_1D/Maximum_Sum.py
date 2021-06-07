@@ -53,3 +53,5 @@ class Solution:
         for i in range(1,len(a)):
             dp[i] = max(d*a[i]+dp[i], dp[i-1])
         return dp[-1]
+# TC O(n)
+# SC O(n)
