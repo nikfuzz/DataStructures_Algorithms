@@ -36,7 +36,7 @@ Output 2:
 
  6
 '''
-# Similar to Dijsktra
+# Similar to Dijsktra (using Prim's algoritm here)
 # maintain a min heap which will return min edge from current node
 # start from any node and greedily keep visiting the min edge from each node
 # keep a visited set to avoid visiting same element
